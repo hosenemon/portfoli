@@ -9,10 +9,11 @@ body {
     color: #6D2330;
     font-weight: 400;
     background-color: #01132B;
-    overflow-y: hidden;
+    
 }
 html, body {
     scroll-behavior: smooth;
+    overflow-y: hidden;
 }
 section {
     padding: 60px 0;
