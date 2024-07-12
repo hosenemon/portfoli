@@ -30,10 +30,14 @@ $(document).ready(function() {
         $('html, body').animate({scrollTop: 0})
     })
     //menu active
-    $(".nav-item").click(function() {
+    $("#navbar_nav ul li").click(function() {
         $(this).addClass('active').siblings().removeClass('active');
     })
+    $('.navbar_icon').click(function() {
+        $('#navbar_nav').fadeToggle()
+    })
 
+    
 })
 
 new WOW().init();
